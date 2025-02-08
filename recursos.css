@@ -1,0 +1,68 @@
+#recursos-section {
+    width: 100%;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Estilo del título */
+#recursos-section h2 {
+    font-size: 2.5rem;  /* Aumenta el tamaño */
+    font-weight: bold;
+    color: #222;
+    margin-bottom: 20px;
+}
+/* Contenedor de libros en 2 filas y 3 columnas */
+.contenedor-libros {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Cada libro */
+.libro {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+/* Títulos en negro */
+.libro h3 {
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+    color: black;
+    background-color: black;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+}
+
+.libro img {
+    width: 100%; 
+    max-height: 30000px; /* Aumenta la altura */
+    object-fit: cover;
+    border-radius: 10px;
+    background-color: green;
+}
+
+/* Botón de descarga (azul en el modelo) */
+.btn-descargar {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 12px 25px;
+    background-color: #005f73;
+    color: white;
+    text-decoration: none;
+    border-radius: 50px;  /* Hace el botón redondeado */
+    font-size: 1rem;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+
+.boton-descarga:hover {
+    background-color: #1565c0; /* Cambio de color al pasar el mouse */
+}

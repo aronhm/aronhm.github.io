@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Física I</title>
+
+    <link rel="stylesheet" type="text/css" href="Css/style.css">
+    <link rel="stylesheet" href="Css/inicio.css">
+    <link rel="stylesheet" href="Css/docente.css">
+    <link rel="stylesheet" href="Css/unidades.css">
+    <link rel="stylesheet" href="Css/recursos.css">
+    <link rel="stylesheet" href="Css/contacto.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <a href="#" class="logo"><img src="lg-untels_awa7n7.webp" width="30" height="35"><span>Untels</span></a>
+        <ul class="navbar">
+            <li><a href="#inicio-section" >Inicio</a></li>
+            <li><a href="#docente-section" >Docente</a></li>
+            <li><a href="#unidades-section" >Unidades</a></li>
+            <li><a href="#recursos-section" >Recursos</a></li>
+            <li><a href="#contacto" >Contacto</a></li>
+        </ul>
+
+        <div class="main">
+            <div class="bx bx-menu" id="menu-icon"></div>
+        </div>
+    </header> 
+    <section class="inicio-section" id="inicio-section">
+        <img src="Captura.JPG" alt="Descripción de la imagen" class="inicio-img">
+    </section>
+    <section class="docente-section" id="docente-section">
+        <div class="info-docente">
+            <h2>Mg. Percy Victor Cañote Fajardo</h2>
+            <p>Información sobre el docente. Cargo, especialidad, años de experiencia y otros datos relevantes.</p>
+        </div>
+        <div class="imagen-docente">
+            <img src="Cañote.JPG" alt="Foto del Docente">
+        </div>
+    </section>
+    <section id="unidades-section">
+        <div class="contenedor-unidades">
+            <!-- Barra lateral de unidades -->
+            <div class="barra-unidades">
+                <button onclick="mostrarUnidad('hola.pdf')">Unidad 1</button>
+                <button onclick="mostrarUnidad('unidad2.pdf')">Unidad 2</button>
+                <button onclick="mostrarUnidad('unidad3.pdf')">Unidad 3</button>
+                <button onclick="mostrarUnidad('unidad4.pdf')">Unidad 4</button>
+                <button onclick="mostrarUnidad('unidad5.pdf')">Unidad 5</button>
+                <button onclick="mostrarUnidad('unidad6.pdf')">Unidad 6</button>
+                <button onclick="mostrarUnidad('unidad7.pdf')">Unidad 7</button>
+                <button onclick="mostrarUnidad('unidad8.pdf')">Unidad 8</button>
+                <button onclick="mostrarUnidad('unidad9.pdf')">Unidad 9</button>
+                <button onclick="mostrarUnidad('unidad10.pdf')">Unidad 10</button>
+            </div>
+    
+            <!-- Área de visualización del PDF -->
+            <div class="visor-pdf">
+                <iframe id="visor" src=""></iframe>
+                <img id="visor-img" src="" alt="Mapa Conceptual" />
+            </div>
+        </div>
+    </section>
+    <section id="recursos-section">
+        <h2>Repositorio de Libros de Física</h2>
+        <div class="contenedor-libros">
+            <div class="libro">
+                <h3>Libro 1</h3>
+                <img src="giancoli.JPG" alt="Portada Libro 1">
+                <a href="pdfs/GIANCOLI - Fisica, principios con aplicacion.pdf" download class="boton-descargar">Descargar PDF</a>
+            </div>
+            <div class="libro">
+                <h3>Libro 2</h3>
+                <img src="serway 1.JPG" alt="Portada Libro 2">
+                <a href="pdfs/libro2.pdf" download class="boton-descargar">Descargar PDF</a>
+            </div>
+            <div class="libro">
+                <h3>Libro 3</h3>
+                <img src="serway 2.JPG" alt="Portada Libro 3">
+                <a href="pdfs/libro3.pdf" download class="boton-descargar">Descargar PDF</a>
+            </div>
+            <div class="libro">
+                <h3>Libro 4</h3>
+                <img src="young 1.JPG" alt="Portada Libro 4">
+                <a href="pdfs/libro4.pdf" download class="boton-descargar">Descargar PDF</a>
+            </div>
+            <div class="libro">
+                <h3>Libro 5</h3>
+                <img src="young 2.JPG" alt="Portada Libro 5">
+                <a href="pdfs/libro5.pdf" download class="boton-descargar">Descargar PDF</a>
+            </div>
+            <div class="libro">
+                <h3>Libro 6</h3>
+                <img src="imagenes/libro6.jpg" alt="Portada Libro 6">
+                <a href="pdfs/libro6.pdf" download class="boton-descargar">Descargar PDF</a>
+            </div>
+        </div>
+    </section>
+    
+    <section id="contacto">
+        <div class="contenedor-contacto">
+            <!-- Logo de la universidad -->
+            <div class="logo-universidad">
+                <img src="lg-untels_awa7n7.webp" alt="Logo Universidad">
+            </div>
+    
+            <!-- Información de contacto -->
+            <div class="info-contacto">
+                <p><strong>Email:</strong> <a href="mailto:contacto@ejemplo.com">huancahuari0@gmail.com</a></p>
+                <p><strong>Teléfono:</strong> <a href="tel:+51912966949">+51 912 966 949</a></p>
+                <p><strong>Dirección:</strong> Sector 3 Grupo 1A 03, Av. Central, Villa EL Salvador 15834</p>
+            </div>
+    
+            <!-- Redes sociales con enlaces -->
+            <div class="redes-sociales">
+                <a href="https://www.facebook.com" target="_blank">
+                    <img src="2023_Facebook_icon.svg.png" alt="Facebook">
+                </a>
+                <a href="https://www.twitter.com" target="_blank">
+                    <img src="Logo_of_Twitter.svg.png" alt="Twitter">
+                </a>
+                <a href="https://www.instagram.com/aaronhm__" target="_blank">
+                    <img src="Instagram_logo_2022.svg.webp" alt="Instagram">
+                </a>
+            </div>
+    
+            <!-- Derechos reservados -->
+            <p class="derechos">© 2025 Universidad Nacional Tecnologica de Lima Sur.</p>
+        </div>
+    </section>
+
+
+
+
+    <!--js link-->
+    <script type="text/javascript" src="script.js"></script>
+    <script>
+        document.querySelectorAll('.barra-unidades button').forEach(button => {
+            button.addEventListener('click', function () {
+                let file = this.getAttribute('data-file');
+                let visor = document.getElementById('visor');
+                let visorImg = document.getElementById('visor-img');
+        
+                if (file.endsWith('.pdf')) {
+                    // Si es PDF, muestra en el iframe
+                    visor.src = file;
+                    visor.style.display = "block";
+                    visorImg.style.display = "none";
+                } else {
+                    // Si es imagen, muestra en <img> con zoom
+                    visorImg.src = file;
+                    visorImg.style.display = "block";
+                    visor.style.display = "none";
+                }
+            });
+        });
+        
+        // Zoom en la imagen
+        document.getElementById('visor-img').addEventListener('click', function () {
+            if (this.style.transform === "scale(2)") {
+                this.style.transform = "scale(1)";
+                this.style.cursor = "zoom-in";
+            } else {
+                this.style.transform = "scale(2)";
+                this.style.cursor = "zoom-out";
+            }
+        });
+
+        function mostrarUnidad(archivo) {
+    const visor = document.getElementById("visor");
+    visor.src = "./pdfs/" + archivo; // Asegúrate de que la ruta es correcta
+}
+        </script>
+</body>
+</html>
